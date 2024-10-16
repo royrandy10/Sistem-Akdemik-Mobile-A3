@@ -131,7 +131,10 @@ class _HomepageState extends State<Homepage> {
                   Container(
                     width: 100,
                     height: 122,
-                    margin: const EdgeInsets.only(left: 20, top: 9, right: 15),
+                    margin: const EdgeInsets.only(
+                      left: 20,
+                      top: 9,
+                    ),
                     decoration: const BoxDecoration(
                       color: Color(0xFF00712D),
                       borderRadius: BorderRadius.all(Radius.circular(5)),
@@ -141,15 +144,15 @@ class _HomepageState extends State<Homepage> {
                         Padding(
                           padding: EdgeInsets.only(top: 8),
                           child: Image(
-                            image: AssetImage('asset/image/Ereader.png'),
+                            image: AssetImage('asset/image/Vector.png'),
                             width: 60,
                             height: 60,
                           ),
                         ),
                         Padding(
-                          padding: EdgeInsets.only(top: 0),
+                          padding: EdgeInsets.only(top: 16),
                           child: Text(
-                            'Kartu\nRencana\nStudi',
+                            'Jadwal \n Kuliah',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontFamily: 'Poppinsmedium',
@@ -162,6 +165,7 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(width: 15),
                   Container(
                     width: 100,
                     height: 122,
@@ -170,12 +174,12 @@ class _HomepageState extends State<Homepage> {
                       color: Color(0xFFFF9100),
                       borderRadius: BorderRadius.all(Radius.circular(5)),
                     ),
-                    child: Column(
+                    child: const Column(
                       children: [
                         Padding(
                           padding: EdgeInsets.only(top: 8),
-                          child: Image.asset(
-                            'asset/image/Knowledge Sharing.png',
+                          child: Image(
+                            image: AssetImage('asset/image/School.png'),
                             width: 60,
                             height: 60,
                           ),
@@ -183,7 +187,7 @@ class _HomepageState extends State<Homepage> {
                         Padding(
                           padding: EdgeInsets.only(top: 15),
                           child: Text(
-                            'Kartu Hasil\nStudi',
+                            'Bahan \nKuliah',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontFamily: 'Poppinsmedium',
@@ -196,10 +200,11 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(width: 15),
                   Container(
                     width: 100,
                     height: 122,
-                    margin: const EdgeInsets.only(left: 15, top: 9, right: 15),
+                    margin: const EdgeInsets.only(top: 9),
                     decoration: const BoxDecoration(
                       color: Color(0xFF00712D),
                       borderRadius: BorderRadius.all(Radius.circular(5)),
@@ -230,6 +235,7 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(width: 15),
                   Container(
                     width: 100,
                     height: 122,
@@ -264,10 +270,81 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(width: 15),
                   Container(
                     width: 100,
                     height: 122,
-                    margin: const EdgeInsets.only(left: 15, top: 9, right: 15),
+                    margin: const EdgeInsets.only(top: 9),
+                    decoration: const BoxDecoration(
+                      color: Color(0xFF00712D),
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
+                    ),
+                    child: const Column(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(top: 8),
+                          child: Image(
+                            image: AssetImage('asset/image/Ereader.png'),
+                            width: 60,
+                            height: 60,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 0),
+                          child: Text(
+                            'Kartu\nRencana\nStudi',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontFamily: 'Poppinsmedium',
+                              fontSize: 14,
+                              color: Color(0xFFFFFFFF),
+                              height: 1.1,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(width: 15),
+                  Container(
+                    width: 100,
+                    height: 122,
+                    margin: const EdgeInsets.only(top: 9),
+                    decoration: const BoxDecoration(
+                      color: Color(0xFFFF9100),
+                      borderRadius: BorderRadius.all(Radius.circular(5)),
+                    ),
+                    child: Column(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(top: 8),
+                          child: Image.asset(
+                            'asset/image/Knowledge Sharing.png',
+                            width: 60,
+                            height: 60,
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 15),
+                          child: Text(
+                            'Kartu Hasil\nStudi',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontFamily: 'Poppinsmedium',
+                              fontSize: 14,
+                              color: Color(0xFFFFFFFF),
+                              height: 1.1,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(width: 15),
+                  Container(
+                    width: 100,
+                    height: 122,
+                    margin: const EdgeInsets.only(top: 9),
                     decoration: const BoxDecoration(
                       color: Color(0xFF00712D),
                       borderRadius: BorderRadius.all(Radius.circular(5)),
@@ -298,10 +375,11 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(width: 15),
                   Container(
                     width: 100,
                     height: 122,
-                    margin: const EdgeInsets.only(top: 9, right: 15),
+                    margin: const EdgeInsets.only(top: 9),
                     decoration: const BoxDecoration(
                       color: Color(0xFFFF9100),
                       borderRadius: BorderRadius.all(Radius.circular(5)),
