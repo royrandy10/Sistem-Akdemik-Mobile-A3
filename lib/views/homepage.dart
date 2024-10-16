@@ -411,6 +411,9 @@ class _HomepageState extends State<Homepage> {
                       ],
                     ),
                   ),
+                  SizedBox(
+                    width: 15,
+                  )
                 ],
               ),
             ),
